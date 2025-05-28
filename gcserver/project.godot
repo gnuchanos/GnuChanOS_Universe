@@ -1,0 +1,27 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="gcServer"
+run/main_scene="uid://6fl2bw3eyb5d"
+config/features=PackedStringArray("4.4", "Forward Plus")
+boot_splash/bg_color=Color(0.109804, 0.0196078, 0.196078, 1)
+boot_splash/image="uid://cseqrdbq0qxjf"
+config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*res://Global.gd"
+
+[display]
+
+window/stretch/mode="viewport"
+window/stretch/aspect="ignore"
