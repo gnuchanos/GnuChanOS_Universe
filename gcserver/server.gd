@@ -24,6 +24,7 @@ func _ready() -> void:
 
 func _PC(id):
 	print('Oyuncu Girdi : '+str(id))
+	rpc_id(id, "ReceivePlayerList", Datas.keys()) # this is for send old user data for new user!!
 	connected_peers.append(id)
 
 func _PD(id):

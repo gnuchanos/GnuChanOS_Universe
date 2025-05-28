@@ -5,8 +5,6 @@ var Enet = ENetMultiplayerPeer.new()
 var Name_ = ''
 var ID_ = 0
 
-########################################
-
 @rpc("any_peer")
 func Login(PlayerName, _ID):
 	var sender_id = multiplayer.get_remote_sender_id()
@@ -16,8 +14,6 @@ func Login(PlayerName, _ID):
 			rpc_id(sender_id, "BackMessage", PlayerName, _ID, 1)  # Zaten var
 			return
 
-
-####################################
 @rpc("any_peer")
 func BackMessage(PlayerName,_ID,No):
 	if PlayerName == Name_ and _ID == ID_:
@@ -85,3 +81,11 @@ func _on_button_pressed() -> void:
 	ID_ = randi_range(1, 10000)
 	Name_ = $CanvasLayer/ColorRect/name.text
 	rpc("Login", Name_, ID_)
+
+@rpc("authority")
+func ReceivePlayerList(player_names):
+	for name in player_names:
+		if not $Players.has_node(name):
+			var player = preload("res://player.tscn").instantiate()
+			player.name = name
+			$Players.add_child(player)
