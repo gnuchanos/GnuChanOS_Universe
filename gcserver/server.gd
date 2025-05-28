@@ -17,7 +17,7 @@ func BackMessage(PlayerName,_ID,No):
 	pass
 
 func _ready() -> void:
-	Enet.create_server(2025,100)
+	Enet.create_server(2025, 5)
 	multiplayer.multiplayer_peer = Enet
 	multiplayer.peer_connected.connect(_PC)
 	multiplayer.peer_disconnected.connect(_PD)
@@ -31,7 +31,7 @@ func _PD(id):
 	connected_peers.erase(id)
 	if connected_peers.size() == 0:
 		print("Son oyuncu çıktı, sunucu kapanıyor...")
-		get_tree().quit()
+		#get_tree().quit()
 
 @rpc("any_peer")
 func PlayerCreate(_Name):
