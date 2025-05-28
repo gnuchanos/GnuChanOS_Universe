@@ -1,10 +1,10 @@
 [gd_scene load_steps=5 format=3 uid="uid://ceckfp7ks82ce"]
 
-[ext_resource type="Script" uid="uid://dsisoui7uojq6" path="res://player.gd" id="1_4flbx"]
+[ext_resource type="Script" path="res://player.gd" id="1_4flbx"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4flbx"]
 
-[sub_resource type="CapsuleMesh" id="CapsuleMesh_4flbx"]
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_8jend"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_4flbx"]
 
@@ -31,7 +31,7 @@ vertical_alignment = 1
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.99957, 0)
-mesh = SubResource("CapsuleMesh_4flbx")
+mesh = SubResource("CapsuleMesh_8jend")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.737279, 0, 0, 0, 0.396696, 0, 0, 0, 0.294721, 0, 1.31702, -0.384324)

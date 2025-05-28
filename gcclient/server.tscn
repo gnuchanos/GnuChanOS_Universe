@@ -1,7 +1,8 @@
-[gd_scene load_steps=12 format=3 uid="uid://b5xlgcu0eqywd"]
+[gd_scene load_steps=9 format=3 uid="uid://b5xlgcu0eqywd"]
 
-[ext_resource type="Script" uid="uid://csjcbiji7fp3d" path="res://server.gd" id="1_ob30c"]
+[ext_resource type="Script" path="res://server.gd" id="1_ob30c"]
 [ext_resource type="FontFile" uid="uid://cngnp8tq206cr" path="res://FreeSans-LrmZ.ttf" id="2_h8t3n"]
+[ext_resource type="PackedScene" uid="uid://cjhjybvk0qun1" path="res://3D/Cardis/Cardis.glb" id="3_imety"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ob30c"]
 bg_color = Color(0.14902, 0.0980392, 0.235294, 1)
@@ -15,20 +16,8 @@ bg_color = Color(0.0422885, 0.0211417, 0.0835784, 1)
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r06b7"]
 bg_color = Color(0.305051, 0.217443, 0.454731, 1)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_ob30c"]
-size = Vector3(25, 1, 25)
-
-[sub_resource type="BoxMesh" id="BoxMesh_ob30c"]
-size = Vector3(25, 1, 25)
-
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ob30c"]
-
-[sub_resource type="Sky" id="Sky_h8t3n"]
-sky_material = SubResource("ProceduralSkyMaterial_ob30c")
-
 [sub_resource type="Environment" id="Environment_imety"]
-background_mode = 2
-sky = SubResource("Sky_h8t3n")
+background_mode = 1
 
 [node name="Server" type="Node2D"]
 script = ExtResource("1_ob30c")
@@ -100,20 +89,65 @@ theme_override_font_sizes/font_size = 36
 theme_override_styles/normal = SubResource("StyleBoxFlat_r06b7")
 text = "Welcome to GnuChanOS Universe!"
 
-[node name="StaticBody2D" type="StaticBody3D" parent="."]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody2D"]
-shape = SubResource("BoxShape3D_ob30c")
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody2D"]
-mesh = SubResource("BoxMesh_ob30c")
-
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_imety")
 
+[node name="Cardis" parent="." instance=ExtResource("3_imety")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.41632, 0, 0)
+
 [node name="OmniLight3D" type="OmniLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.78732, 0)
-light_energy = 6.172
-omni_range = 45.553
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44944, 3.80525, 0)
+light_energy = 2.193
+omni_range = 10.376
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.44944, 3.20668, 0)
+light_energy = 2.193
+omni_range = 10.376
+
+[node name="OmniLight3D3" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.77493, 3.20668, 0)
+light_energy = 2.193
+omni_range = 10.376
+
+[node name="OmniLight3D4" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.03856, 3.20668, 0)
+light_energy = 2.193
+omni_range = 10.376
+
+[node name="OmniLight3D5" type="OmniLight3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -4.40674, 3.20668, -3.36818)
+light_energy = 2.193
+omni_range = 10.376
+
+[node name="OmniLight3D6" type="OmniLight3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -4.40674, 3.20668, 3.36818)
+light_energy = 2.193
+omni_range = 10.376
+
+[node name="OmniLight3D7" type="OmniLight3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -10.2402, 3.20668, 11.4855)
+light_energy = 2.193
+omni_range = 10.376
+
+[node name="OmniLight3D8" type="OmniLight3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -10.2402, 3.20668, 17.0977)
+light_energy = 2.193
+omni_range = 10.376
+
+[node name="OmniLight3D9" type="OmniLight3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -10.2402, 3.20668, 21.8741)
+light_energy = 2.193
+omni_range = 10.376
+
+[node name="OmniLight3D10" type="OmniLight3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -15.7145, 3.20668, 7.60003)
+light_energy = 2.193
+omni_range = 10.376
+
+[node name="OmniLight3D11" type="OmniLight3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 2.51912, 3.20668, 6.91521)
+light_energy = 2.193
+omni_range = 10.376
 
 [connection signal="pressed" from="CanvasLayer/ColorRect/Button" to="." method="_on_button_pressed"]

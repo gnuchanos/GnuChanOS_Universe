@@ -1,3 +1,3 @@
 extends Node
 
-var Name = ''
+var Name = "yarram"

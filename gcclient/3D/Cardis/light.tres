@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://bhq7y3vguwbfy"]
+
+[ext_resource type="Texture2D" uid="uid://b51xf2he77tpw" path="res://3D/Cardis/Cardis_fullColorAtlas.png" id="1_xde4c"]
+
+[resource]
+albedo_texture = ExtResource("1_xde4c")
+metallic_specular = 0.0
+roughness = 0.0

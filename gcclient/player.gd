@@ -11,7 +11,7 @@ var _Name = ''
 
 var IDD = 0
 var Ilk = true
-var Naame = ''
+var Naame = "yarram"
 
 func _ready() -> void:
 	if _Name==Global.Name:

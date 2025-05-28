@@ -35,22 +35,6 @@ func _ready() -> void:
 	multiplayer.peer_disconnected.connect(_on_server_disconnected)
 	multiplayer.connection_failed.connect(_on_connection_failed)
 
-var timer = 10
-func print_children_names(parent_node: Node, delta: float) -> void:
-	if timer > 0:
-		timer -= delta
-	else:
-		timer = 10
-		for child in parent_node.get_children():
-			print(child.name)
-
-
-func _process(delta: float) -> void:
-	print_children_names($Players, delta)
-
-	if Input.is_action_just_pressed('r'):
-		pass
-
 func _on_server_disconnected(id):
 	print("Sunucu bağlantısı kesildi, istemci kapanıyor...")
 	get_tree().quit()

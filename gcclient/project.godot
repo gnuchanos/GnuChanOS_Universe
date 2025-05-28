@@ -12,10 +12,10 @@ config_version=5
 
 config/name="gcClient"
 run/main_scene="res://server.tscn"
-config/features=PackedStringArray("4.4", "Forward Plus")
+config/features=PackedStringArray("4.3", "Forward Plus")
 boot_splash/bg_color=Color(0.109804, 0.0196078, 0.196078, 1)
-boot_splash/image="uid://iq4akdetr4s5"
-config/icon="res://icon.svg"
+boot_splash/image="res://bg.png"
+config/icon="res://logo.png"
 
 [autoload]
 
