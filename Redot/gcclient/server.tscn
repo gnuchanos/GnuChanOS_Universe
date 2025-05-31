@@ -1,0 +1,114 @@
+[gd_scene load_steps=10 format=3 uid="uid://b5xlgcu0eqywd"]
+
+[ext_resource type="Script" path="res://Scripts/server.gd" id="1_ob30c"]
+[ext_resource type="FontFile" uid="uid://cngnp8tq206cr" path="res://FreeSans-LrmZ.ttf" id="2_h8t3n"]
+[ext_resource type="Script" path="res://Scripts/Map.gd" id="3_imety"]
+[ext_resource type="PackedScene" uid="uid://cjhjybvk0qun1" path="res://3D/Cardis/Cardis.glb" id="4_r06b7"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ob30c"]
+bg_color = Color(0.14902, 0.0980392, 0.235294, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h8t3n"]
+bg_color = Color(0.249809, 0.17463, 0.377634, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_imety"]
+bg_color = Color(0.0422885, 0.0211417, 0.0835784, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_r06b7"]
+bg_color = Color(0.305051, 0.217443, 0.454731, 1)
+
+[sub_resource type="Environment" id="Environment_imety"]
+background_mode = 1
+
+[node name="Server" type="Node2D"]
+script = ExtResource("1_ob30c")
+
+[node name="Players" type="Node3D" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="Panel" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ob30c")
+
+[node name="name" type="LineEdit" parent="CanvasLayer/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -154.5
+offset_top = -40.0
+offset_right = 154.5
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_placeholder_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_h8t3n")
+theme_override_styles/focus = SubResource("StyleBoxFlat_h8t3n")
+theme_override_styles/normal = SubResource("StyleBoxFlat_imety")
+placeholder_text = "Name"
+alignment = 1
+
+[node name="Button" type="Button" parent="CanvasLayer/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -65.0
+offset_top = 53.0
+offset_right = 65.0
+offset_bottom = 111.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Connect to the server"
+
+[node name="debug" type="Label" parent="CanvasLayer/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = -234.5
+offset_right = 20.0
+offset_bottom = -187.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_h8t3n")
+theme_override_font_sizes/font_size = 36
+theme_override_styles/normal = SubResource("StyleBoxFlat_r06b7")
+text = "Welcome to GnuChanOS Universe!"
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_imety")
+
+[node name="Maps" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 8.8306)
+script = ExtResource("3_imety")
+
+[node name="1" type="Node3D" parent="Maps"]
+
+[node name="Cardis" parent="Maps/1" instance=ExtResource("4_r06b7")]
+
+[node name="centerLight" type="OmniLight3D" parent="Maps/1/Cardis"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.1414, 0)
+omni_range = 7.057
+
+[node name="2" type="Node3D" parent="Maps"]
+visible = false
+
+[node name="3" type="Node3D" parent="Maps"]
+visible = false
+
+[connection signal="pressed" from="CanvasLayer/ColorRect/Button" to="." method="_on_button_pressed"]
