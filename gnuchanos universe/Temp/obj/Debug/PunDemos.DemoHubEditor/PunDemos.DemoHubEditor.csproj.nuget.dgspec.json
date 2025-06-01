@@ -1,0 +1,181 @@
+{
+  "format": 1,
+  "restore": {
+    "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PunDemos.DemoHubEditor.csproj": {}
+  },
+  "projects": {
+    "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonRealtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonRealtime.csproj",
+        "projectName": "PhotonRealtime",
+        "projectPath": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonRealtime.csproj",
+        "packagesPath": "/home/archkubi/.nuget/packages/",
+        "outputPath": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/Temp/obj/Debug/PhotonRealtime/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/archkubi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonUnityNetworking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonUnityNetworking.csproj",
+        "projectName": "PhotonUnityNetworking",
+        "projectPath": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonUnityNetworking.csproj",
+        "packagesPath": "/home/archkubi/.nuget/packages/",
+        "outputPath": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/Temp/obj/Debug/PhotonUnityNetworking/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/archkubi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonRealtime.csproj": {
+                "projectPath": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonRealtime.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PunDemos.DemoHubEditor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PunDemos.DemoHubEditor.csproj",
+        "projectName": "PunDemos.DemoHubEditor",
+        "projectPath": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PunDemos.DemoHubEditor.csproj",
+        "packagesPath": "/home/archkubi/.nuget/packages/",
+        "outputPath": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/Temp/obj/Debug/PunDemos.DemoHubEditor/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/archkubi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonRealtime.csproj": {
+                "projectPath": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonRealtime.csproj"
+              },
+              "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonUnityNetworking.csproj": {
+                "projectPath": "/SSD/Github/GnuChanOS_Universe/gnuchanos universe/PhotonUnityNetworking.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.105/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,8 +1,0 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://c16o7dslgiwyt"]
-
-[ext_resource type="Texture2D" uid="uid://b17lu3b0hr812" path="res://3D/Players/CubeChan_default/CubeChan_default_myFace.png" id="1_fqlwx"]
-
-[resource]
-albedo_texture = ExtResource("1_fqlwx")
-emission_enabled = true
-emission_texture = ExtResource("1_fqlwx")
