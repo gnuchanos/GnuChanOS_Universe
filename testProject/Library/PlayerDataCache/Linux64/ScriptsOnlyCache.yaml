@@ -2,10 +2,14 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp:
     - FPS
+    - PlayerIdentity
+    - bodyChange
     Assembly-CSharp.dll:
     - CreateRoom
     - FPS
+    - PlayerIdentity
     - PlayerSpawn
+    - bodyChange
     PhotonUnityNetworking:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -90,6 +94,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 33110}
     - Class: 114
       Script: {instanceID: 33260}
+    - Class: 114
+      Script: {instanceID: 39554}
+    - Class: 114
+      Script: {instanceID: 41248}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -177,6 +185,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 25436}
     - Class: 114
       Script: {instanceID: 33110}
+    - Class: 114
+      Script: {instanceID: 39554}
+    - Class: 114
+      Script: {instanceID: 41248}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1928,6 +1940,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerSpawn
+  - hash:
+      serializedVersion: 2
+      Hash: db75f1864df1813f1e71d0bc7b194c89
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerIdentity
+  - hash:
+      serializedVersion: 2
+      Hash: 8c354cddac7a0e7b96963f670428b231
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: bodyChange
   platform: 24
   scenePathNames:
   - Assets/Scenes/mainScene.unity

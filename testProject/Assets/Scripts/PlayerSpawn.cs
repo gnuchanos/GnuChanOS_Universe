@@ -10,12 +10,12 @@ public class PlayerSpawn : MonoBehaviourPunCallbacks
     private bool isInRoom = false;
     private bool sceneLoaded = false;
 
-    void OnEnable()
+    new void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
-    void OnDisable()
+    new void OnDisable()
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
@@ -54,23 +54,23 @@ public class PlayerSpawn : MonoBehaviourPunCallbacks
         {
             if (fpsPrefab == null)
             {
-                Debug.LogError("fpsPrefab atanmadı!");
+                Debug.LogError("fpsPrefab is null");
                 return;
             }
             if (spawnPoint == null)
             {
-                Debug.LogError("spawnPoint atanmadı!");
+                Debug.LogError("spawnPoint is null!");
                 return;
             }
 
-            Debug.Log("PlayerSpawn: Oyuncu spawn ediliyor.");
+            Debug.Log("PlayerSpawn: player Spawning!");
             GameObject player = PhotonNetwork.Instantiate(fpsPrefab.name, spawnPoint.position, Quaternion.identity);
             player.name = "Player_" + Random.Range(1000, 9999);
-            Debug.Log("PlayerSpawn: Oyuncu spawn edildi: " + player.name);
+            Debug.Log("PlayerSpawn: Here we gooooo: " + player.name);
         }
         else
         {
-            Debug.Log("PlayerSpawn: Odaya henüz girilmedi veya sahne hazır değil, spawn bekleniyor.");
+            Debug.Log("PlayerSpawn: room is not ready");
         }
     }
 }

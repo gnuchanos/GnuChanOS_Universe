@@ -337,7 +337,9 @@
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/CreateRoom.cs"
 "Assets/Scripts/FPS.cs"
+"Assets/Scripts/PlayerIdentity.cs"
 "Assets/Scripts/PlayerSpawn.cs"
+"Assets/Scripts/bodyChange.cs"
 -langversion:9.0
 /deterministic
 /optimize-

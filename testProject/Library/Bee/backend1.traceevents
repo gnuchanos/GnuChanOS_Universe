@@ -1,209 +1,312 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1748812673215275, "dur":1233, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748812673216517, "dur":67, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748812673216620, "dur":351, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748812673216992, "dur":4758, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748812673221756, "dur":2845, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748812673224804, "dur":745, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1748812673216696, "dur":5072, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1748812673221769, "dur":1153, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1748812673222959, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/PlayerDataCache/Linux64/Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1748812673223418, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1748812673223586, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1748812673223657, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":1, "ts":1748812673222958, "dur":974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1748812673223972, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1748812673223971, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UIModule.pdb" }}
-,{ "pid":12345, "tid":1, "ts":1748812673224279, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1748812673224510, "dur":90, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748812673216723, "dur":5053, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748812673221779, "dur":277, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748812673222058, "dur":909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748812673222968, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
-,{ "pid":12345, "tid":2, "ts":1748812673223079, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748812673223359, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748812673223357, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748812673223631, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748812673223812, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1748812673223810, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1748812673223989, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748812673224050, "dur":82, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1748812673224214, "dur":62, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1748812673224279, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_development_mono/Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1748812673224278, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":2, "ts":1748812673224381, "dur":72, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1748812673224505, "dur":108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748812673216751, "dur":5035, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748812673221789, "dur":409, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748812673222199, "dur":736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748812673222954, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748812673223184, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748812673223285, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748812673223381, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748812673223379, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748812673223663, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748812673223771, "dur":171, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1748812673223953, "dur":75, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.VideoModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1748812673224464, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748812673224520, "dur":142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748812673216778, "dur":5018, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748812673221799, "dur":418, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748812673222218, "dur":725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748812673222949, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748812673222946, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748812673223056, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748812673223150, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748812673223205, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748812673223328, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748812673223408, "dur":219, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748812673223407, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonChat.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748812673223632, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748812673223824, "dur":94, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Photon3Unity3D.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1748812673223920, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1748812673223919, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.WindModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1748812673224268, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_development_mono/Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1748812673224266, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1748812673224385, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1748812673224384, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1748812673224475, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_development_mono/Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1748812673224473, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":5, "ts":1748812673216799, "dur":5008, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748812673221810, "dur":445, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748812673222256, "dur":674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748812673222937, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748812673222933, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748812673223018, "dur":369, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748812673223489, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748812673223486, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748812673223657, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748812673223816, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1748812673223815, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1748812673223966, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1748812673223965, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1748812673224066, "dur":72, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1748812673224296, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/UnityPlayer_s.debug" }}
-,{ "pid":12345, "tid":5, "ts":1748812673224382, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1748812673224381, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.GridModule.pdb" }}
-,{ "pid":12345, "tid":5, "ts":1748812673224518, "dur":93, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748812673216822, "dur":4994, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748812673221820, "dur":409, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748812673222231, "dur":715, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748812673222954, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748812673222950, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748812673223055, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748812673223184, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748812673223484, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748812673223483, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748812673223690, "dur":89, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1748812673223821, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1748812673223820, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1748812673223977, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1748812673223976, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.AudioModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1748812673224075, "dur":79, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.AudioModule.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1748812673224188, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1748812673224186, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":6, "ts":1748812673224252, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748812673224472, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748812673216854, "dur":4972, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748812673221830, "dur":449, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748812673222280, "dur":648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748812673222935, "dur":305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748812673222930, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748812673223325, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748812673223407, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748812673223406, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748812673223863, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1748812673223861, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1748812673223968, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748812673224269, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":7, "ts":1748812673224396, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748812673224456, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1748812673216882, "dur":4956, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748812673221849, "dur":400, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748812673222250, "dur":676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748812673222933, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748812673223102, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748812673223101, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748812673223224, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748812673223475, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748812673223474, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748812673223632, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748812673223722, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748812673223801, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748812673223966, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748812673224286, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1748812673224285, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.VRModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1748812673224467, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1748812673224536, "dur":96, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748812673216920, "dur":4934, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748812673221856, "dur":440, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748812673222297, "dur":655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748812673222959, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748812673222954, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748812673223173, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748812673223311, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748812673223482, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748812673223480, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748812673223809, "dur":70, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1748812673223883, "dur":143, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1748812673223881, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1748812673224181, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1748812673224180, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1748812673224292, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
-,{ "pid":12345, "tid":9, "ts":1748812673224490, "dur":181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748812673216932, "dur":4931, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748812673221865, "dur":1067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748812673222954, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748812673223288, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748812673223386, "dur":182, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748812673223384, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748812673223729, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748812673223809, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748812673223868, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1748812673223867, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1748812673223976, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748812673224232, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
-,{ "pid":12345, "tid":10, "ts":1748812673224367, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748812673224486, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test.x86_64" }}
-,{ "pid":12345, "tid":10, "ts":1748812673224565, "dur":56, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748812673216953, "dur":4927, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748812673221881, "dur":1056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748812673222945, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748812673222939, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748812673223051, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748812673223208, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748812673223414, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748812673223413, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748812673223652, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748812673223779, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748812673223994, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.pdb" }}
-,{ "pid":12345, "tid":11, "ts":1748812673223993, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.ClothModule.pdb" }}
-,{ "pid":12345, "tid":11, "ts":1748812673224178, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.pdb" }}
-,{ "pid":12345, "tid":11, "ts":1748812673224177, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
-,{ "pid":12345, "tid":11, "ts":1748812673224472, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748812673224544, "dur":97, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748812673216979, "dur":4910, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748812673221891, "dur":1050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748812673222946, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748812673222943, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223055, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223150, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223294, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223379, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223378, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223493, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223492, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223630, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223723, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223820, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223819, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223974, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1748812673223973, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UmbraModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1748812673224170, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1748812673224168, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1748812673224271, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":12, "ts":1748812673224384, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748812673224471, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":12, "ts":1748812673224470, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":0, "ts":1748812673227922, "dur":163, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1748816764045811, "dur":1477, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748816764047297, "dur":79, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748816764047409, "dur":306, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748816764050826, "dur":253, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":0, "ts":1748816764047735, "dur":4712, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748816764052453, "dur":595772, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748816764648229, "dur":75, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748816764648507, "dur":1289, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1748816764047470, "dur":4992, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748816764052466, "dur":8181, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748816764061011, "dur":149, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748816764061162, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748816764061380, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748816764061491, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748816764061580, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748816764061654, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748816764061775, "dur":203, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748816764060681, "dur":1521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1748816764062708, "dur":76527, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1748816764139931, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764141660, "dur":41468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764183192, "dur":22140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764205406, "dur":45479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764250974, "dur":24217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764275258, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.SpriteShapeModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764276182, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.JSONSerializeModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764276731, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764277274, "dur":360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.NVIDIAModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764277678, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764278118, "dur":305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764278468, "dur":404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764278924, "dur":355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TerrainModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764279323, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ProfilerModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764279810, "dur":500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.PropertiesModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764280352, "dur":339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764280733, "dur":384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ScreenCaptureModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764281167, "dur":314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.SharedInternalsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764281488, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/archkubi/Downloads/test/testProject_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764281569, "dur":23290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764304919, "dur":21779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764326767, "dur":1055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1748816764327878, "dur":300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1748816764328222, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1748816764328671, "dur":314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1748816764329024, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1748816764329665, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1748816764330288, "dur":11825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1748816764342163, "dur":361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ClusterInputModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764342576, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TilemapModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764343008, "dur":30864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UIElementsModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764373933, "dur":104962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityCurlModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764478973, "dur":121195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.GIModule.pdb" }}
+,{ "pid":12345, "tid":1, "ts":1748816764600177, "dur":48095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748816764047505, "dur":4970, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748816764052478, "dur":370, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748816764052850, "dur":7825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748816764060952, "dur":222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748816764061231, "dur":210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748816764061492, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748816764061706, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748816764062148, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748816764062285, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748816764062364, "dur":188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748816764062598, "dur":10424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748816764073074, "dur":53639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748816764126768, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748816764130048, "dur":4218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748816764134319, "dur":93022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.XRModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1748816764227405, "dur":23607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TextRenderingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1748816764251062, "dur":75921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748816764326996, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1748816764326995, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/archkubi/Downloads/test/testProject_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1748816764327192, "dur":50978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1748816764378228, "dur":102709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1748816764480986, "dur":131299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1748816764612295, "dur":35919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748816764047526, "dur":4959, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748816764052488, "dur":412, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748816764052910, "dur":7778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748816764061709, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1748816764062748, "dur":390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748816764063241, "dur":16353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748816764079637, "dur":26212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748816764105886, "dur":12801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748816764118719, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1748816764121486, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748816764122632, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748816764125371, "dur":6488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748816764131902, "dur":6597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748816764138560, "dur":228515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityWebRequestModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1748816764367127, "dur":8670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/WinPixEventRuntime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748816764375859, "dur":104434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1748816764480357, "dur":125568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.IMGUIModule.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1748816764605936, "dur":42303, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748816764047554, "dur":4941, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748816764052497, "dur":403, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748816764052902, "dur":7752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748816764060661, "dur":310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764060656, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/archkubi/Downloads/test/testProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764061018, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764061829, "dur":11868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764073748, "dur":6942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764080756, "dur":27922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764108725, "dur":4753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764113523, "dur":2784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764116332, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1748816764119509, "dur":3784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1748816764123333, "dur":4325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764127714, "dur":4253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764132009, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764133656, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748816764134385, "dur":6417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.WindModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748816764140855, "dur":111909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748816764252812, "dur":52754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748816764305622, "dur":69302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.PhysicsModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748816764374982, "dur":105033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748816764480034, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/archkubi/Downloads/test/testProject_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748816764480157, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748816764482344, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Photon3Unity3D.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748816764483163, "dur":211, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp/StagingArea/WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1748816764483162, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/archkubi/Downloads/test/testProject.exe" }}
+,{ "pid":12345, "tid":4, "ts":1748816764483402, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject.exe" }}
+,{ "pid":12345, "tid":4, "ts":1748816764486926, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748816764486924, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/archkubi/Downloads/test/testProject_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748816764487052, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748816764488384, "dur":123973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1748816764612367, "dur":35859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748816764047574, "dur":4930, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748816764052505, "dur":415, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748816764052921, "dur":7761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748816764062042, "dur":91, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748816764062146, "dur":12914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1748816764075098, "dur":188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748816764075336, "dur":5502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748816764080918, "dur":29646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.InputModule.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1748816764110599, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748816764110743, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748816764110891, "dur":107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748816764111032, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748816764111160, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748816764113790, "dur":3173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748816764117008, "dur":103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1748816764117138, "dur":90, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1748816764117251, "dur":88058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1748816764205366, "dur":279190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748816764484604, "dur":163546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764047593, "dur":4922, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748816764052517, "dur":341, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748816764052859, "dur":7805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748816764061067, "dur":290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764061425, "dur":197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764061712, "dur":243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764062105, "dur":132, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748816764061995, "dur":251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764062289, "dur":18862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764081203, "dur":29724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764110973, "dur":6003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764117015, "dur":4794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1748816764121860, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764122930, "dur":8886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764131877, "dur":51289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764183240, "dur":376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748816764183703, "dur":44094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1748816764227880, "dur":77671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AnimationModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1748816764305632, "dur":174431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TLSModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1748816764480148, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/PhotonChat.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1748816764482335, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Unity.VisualScripting.State.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1748816764484907, "dur":128450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1748816764613368, "dur":34842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748816764047613, "dur":4911, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748816764052526, "dur":396, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748816764052923, "dur":7817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748816764061432, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1748816764061898, "dur":14829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1748816764076766, "dur":5301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748816764082105, "dur":38034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748816764120215, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748816764122138, "dur":115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748816764122291, "dur":4378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748816764126715, "dur":270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748816764127024, "dur":4125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748816764131213, "dur":2969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748816764134228, "dur":49299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1748816764183622, "dur":67406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748816764251119, "dur":54414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.GridModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1748816764305622, "dur":61252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.SubsystemsModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1748816764366940, "dur":229028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748816764596086, "dur":16036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1748816764612135, "dur":36084, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748816764047638, "dur":4895, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748816764052535, "dur":371, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748816764052907, "dur":7764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748816764062037, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748816764061894, "dur":228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748816764062196, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748816764062422, "dur":51599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748816764114060, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748816764118331, "dur":4077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1748816764122442, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748816764124002, "dur":8286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748816764132366, "dur":4183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1748816764136603, "dur":46574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.VFXModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1748816764183232, "dur":22170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1748816764205465, "dur":23021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ARModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1748816764228530, "dur":75031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UIModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1748816764303621, "dur":2607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.StreamingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1748816764306351, "dur":20326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1748816764326798, "dur":41741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1748816764368591, "dur":6369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.VirtualTexturingModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1748816764375022, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1748816764378095, "dur":234044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.CoreModule.pdb" }}
+,{ "pid":12345, "tid":8, "ts":1748816764612150, "dur":36055, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748816764047660, "dur":4882, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748816764052545, "dur":457, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748816764053004, "dur":7727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748816764062129, "dur":122, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748816764061423, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1748816764062324, "dur":14412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748816764076776, "dur":26631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748816764103457, "dur":5696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748816764109207, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748816764109407, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748816764111771, "dur":146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748816764111955, "dur":3031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748816764115026, "dur":3771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748816764118873, "dur":5069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1748816764123988, "dur":3867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748816764127916, "dur":5642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748816764133596, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748816764133736, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764133734, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/archkubi/Downloads/test/testProject_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764133897, "dur":589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764134546, "dur":4962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.VideoModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764139551, "dur":43956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764183589, "dur":46233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ClothModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764229878, "dur":43956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AudioModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764273905, "dur":29607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.SpriteMaskModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764303590, "dur":62188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.InputLegacyModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764365836, "dur":5187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.VRModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764371072, "dur":5521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764376640, "dur":102683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ContentLoadModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748816764479416, "dur":122143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1748816764601570, "dur":46709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748816764047681, "dur":4870, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748816764052581, "dur":8080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748816764060970, "dur":293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764061344, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764061591, "dur":225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764062028, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748816764061874, "dur":231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764062183, "dur":171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764062409, "dur":323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764062776, "dur":15246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764078060, "dur":2983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764081085, "dur":26094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764107215, "dur":4860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764112120, "dur":6932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764119093, "dur":98, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1748816764119216, "dur":8581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1748816764127856, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764130327, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764132064, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1748816764133681, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1748816764133679, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1748816764133790, "dur":591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1748816764134424, "dur":4941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764139413, "dur":65750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1748816764205211, "dur":164652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764369928, "dur":113376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1748816764483422, "dur":143770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748816764627203, "dur":21028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748816764047698, "dur":4862, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748816764052561, "dur":8090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748816764061573, "dur":220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748816764061857, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748816764062018, "dur":42298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748816764104388, "dur":5205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748816764109637, "dur":13167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748816764122872, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748816764125433, "dur":8714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748816764134225, "dur":49061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Assembly-CSharp.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1748816764183342, "dur":23015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1748816764206406, "dur":168706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AccessibilityModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1748816764375161, "dur":12010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1748816764387231, "dur":92887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.DSPGraphModule.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1748816764480127, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1748816764480125, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/archkubi/Downloads/test/testProject_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1748816764480227, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1748816764482436, "dur":132532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1748816764614982, "dur":33269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748816764047722, "dur":4848, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748816764052571, "dur":8129, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748816764061295, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1748816764063290, "dur":10835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748816764074173, "dur":33632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748816764107858, "dur":4670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748816764112569, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748816764114281, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1748816764114407, "dur":96, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1748816764114528, "dur":20012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1748816764134602, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.VehiclesModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1748816764136219, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1748816764137279, "dur":549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1748816764137873, "dur":45726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748816764183661, "dur":156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748816764183874, "dur":213377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748816764397314, "dur":82872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/testProject_Data/Managed/UnityEngine.DirectorModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1748816764480233, "dur":121505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/archkubi/Downloads/test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1748816764601748, "dur":46511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748816764651569, "dur":342, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
