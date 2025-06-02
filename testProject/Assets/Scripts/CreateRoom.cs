@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;  // Sahne yönetimi için
 public class CreateRoom : MonoBehaviourPunCallbacks
 {
     private string defaultPrefabName = "fps"; // prefab adı dosyadaki haliyle
-    private string roomName = "AnaOda"; // sabit oda adı
+    private string roomName = "AnaOda_anan"; // sabit oda adı
     private string sceneName = "mainGameHUB"; // yüklenecek sahne adı
 
     void Start()
