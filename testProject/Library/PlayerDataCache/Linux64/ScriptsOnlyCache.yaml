@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CreateRoom
     - FPS
+    - Maps
     - PlayerIdentity
     - PlayerSpawn
     - bodyChange
@@ -104,6 +105,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 39554}
     - Class: 114
       Script: {instanceID: 41248}
+    - Class: 114
+      Script: {instanceID: 47714}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -1964,6 +1967,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: bodyChange
+  - hash:
+      serializedVersion: 2
+      Hash: 18e70c4d27931caba3e70a05e59f3885
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Maps
   platform: 24
   scenePathNames:
   - Assets/Scenes/mainScene.unity

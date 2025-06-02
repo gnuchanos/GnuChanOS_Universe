@@ -332,6 +332,7 @@
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/CreateRoom.cs"
 "Assets/Scripts/FPS.cs"
+"Assets/Scripts/Maps.cs"
 "Assets/Scripts/PlayerIdentity.cs"
 "Assets/Scripts/PlayerSpawn.cs"
 "Assets/Scripts/bodyChange.cs"

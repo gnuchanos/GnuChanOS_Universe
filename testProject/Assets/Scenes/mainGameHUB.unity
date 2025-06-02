@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: c43744775ae191bc6ada27cbc614b800, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -168,25 +168,127 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &277891947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 277891948}
+  - component: {fileID: 277891950}
+  - component: {fileID: 277891949}
+  m_Layer: 0
+  m_Name: Maps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &277891948
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277891947}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3856944, y: -1.3227403, z: -1.0217981}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1376788816}
+  - {fileID: 1339743031}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &277891949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277891947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b77023bdbebe8d05bcd9951db2f25d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardisMap: {fileID: 1376788817}
+  MinecraftMap: {fileID: 1339743030}
+--- !u!114 &277891950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277891947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 1
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!1 &1339743030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1339743031}
+  m_Layer: 0
+  m_Name: Minecraft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1339743031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1339743030}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 277891948}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1376788815
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 277891948}
     m_Modifications:
     - target: {fileID: 4664071518942641806, guid: 3271ceeb3a5f91df8a77a424407ffbe1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.2957788
+      value: -3.6814733
       objectReference: {fileID: 0}
     - target: {fileID: 4664071518942641806, guid: 3271ceeb3a5f91df8a77a424407ffbe1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.3116665
+      value: 3.6344068
       objectReference: {fileID: 0}
     - target: {fileID: 4664071518942641806, guid: 3271ceeb3a5f91df8a77a424407ffbe1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.7840566
+      value: 1.8058548
       objectReference: {fileID: 0}
     - target: {fileID: 4664071518942641806, guid: 3271ceeb3a5f91df8a77a424407ffbe1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -194,15 +296,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4664071518942641806, guid: 3271ceeb3a5f91df8a77a424407ffbe1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4664071518942641806, guid: 3271ceeb3a5f91df8a77a424407ffbe1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4664071518942641806, guid: 3271ceeb3a5f91df8a77a424407ffbe1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4664071518942641806, guid: 3271ceeb3a5f91df8a77a424407ffbe1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -225,9 +327,19 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3271ceeb3a5f91df8a77a424407ffbe1, type: 3}
+--- !u!4 &1376788816 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4664071518942641806, guid: 3271ceeb3a5f91df8a77a424407ffbe1, type: 3}
+  m_PrefabInstance: {fileID: 1376788815}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1376788817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8321649237929103805, guid: 3271ceeb3a5f91df8a77a424407ffbe1, type: 3}
+  m_PrefabInstance: {fileID: 1376788815}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 217523433}
-  - {fileID: 1376788815}
+  - {fileID: 277891948}

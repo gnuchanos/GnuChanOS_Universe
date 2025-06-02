@@ -1,178 +1,171 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1748820241567773, "dur":4843, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748820241572624, "dur":172, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748820241572834, "dur":350, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748820241575834, "dur":149, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
-,{ "pid":12345, "tid":0, "ts":1748820241573205, "dur":4909, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748820241578122, "dur":88708, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748820241667007, "dur":939, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1748820241572903, "dur":5232, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1748820241578138, "dur":1223, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1748820241579739, "dur":255, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
-,{ "pid":12345, "tid":1, "ts":1748820241580299, "dur":53, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1748820241580399, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll" }}
-,{ "pid":12345, "tid":1, "ts":1748820241580476, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1748820241579998, "dur":852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1748820241581107, "dur":113, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1748820241581284, "dur":84479, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1748820241666513, "dur":198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1748820241572945, "dur":5204, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748820241578153, "dur":299, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748820241578453, "dur":1045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748820241579509, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748820241579502, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748820241579576, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748820241579739, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748820241579738, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748820241579904, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748820241580210, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonRealtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748820241580714, "dur":321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/level1.resS" }}
-,{ "pid":12345, "tid":2, "ts":1748820241581095, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1748820241581093, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.State.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1748820241581156, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748820241581440, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1748820241581438, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1748820241581594, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
-,{ "pid":12345, "tid":2, "ts":1748820241581666, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748820241582018, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1748820241582333, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb" }}
-,{ "pid":12345, "tid":2, "ts":1748820241582544, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1748820241582720, "dur":162, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1748820241582917, "dur":83862, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748820241572966, "dur":5257, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748820241578228, "dur":311, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748820241578540, "dur":980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748820241579535, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748820241579809, "dur":828, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748820241580781, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748820241581108, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748820241581251, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1748820241581250, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1748820241581367, "dur":239, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1748820241581365, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.Core.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1748820241581691, "dur":921, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1748820241582881, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.DirectorModule.pdb" }}
-,{ "pid":12345, "tid":3, "ts":1748820241582934, "dur":83839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748820241572996, "dur":5241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748820241578241, "dur":237, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748820241578479, "dur":891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748820241579376, "dur":350, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748820241579372, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1748820241579794, "dur":850, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748820241580666, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748820241580903, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748820241581099, "dur":413, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1748820241581098, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.TextMeshPro.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1748820241581604, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748820241582013, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1748820241582308, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1748820241582572, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1748820241582571, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.LocalizationModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1748820241582837, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1748820241582904, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.CrashReportingModule.pdb" }}
-,{ "pid":12345, "tid":4, "ts":1748820241582956, "dur":83882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748820241573021, "dur":5230, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748820241578254, "dur":343, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748820241578598, "dur":807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748820241579467, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748820241579466, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1748820241579544, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748820241579819, "dur":917, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1748820241580796, "dur":70483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1748820241651290, "dur":15530, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748820241573049, "dur":5213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748820241578266, "dur":344, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748820241578612, "dur":753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748820241579374, "dur":237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748820241579370, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748820241579732, "dur":95, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1748820241579848, "dur":651, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1748820241580707, "dur":238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/level1" }}
-,{ "pid":12345, "tid":6, "ts":1748820241581177, "dur":68215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1748820241649402, "dur":17355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748820241573072, "dur":5203, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748820241578278, "dur":278, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748820241578557, "dur":806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748820241579371, "dur":366, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748820241579789, "dur":636, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748820241580435, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748820241580431, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1748820241580767, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/level0.resS" }}
-,{ "pid":12345, "tid":7, "ts":1748820241581334, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1748820241581333, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1748820241581516, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1748820241581514, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.Timeline.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1748820241581595, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748820241581670, "dur":379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748820241582051, "dur":86, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
-,{ "pid":12345, "tid":7, "ts":1748820241582189, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748820241582303, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1748820241582302, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.VRModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1748820241582414, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748820241582479, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.AndroidJNIModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1748820241582534, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1748820241582602, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1748820241582601, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UnityConnectModule.pdb" }}
-,{ "pid":12345, "tid":7, "ts":1748820241582925, "dur":83842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748820241573108, "dur":5180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748820241578295, "dur":333, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748820241578629, "dur":929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748820241579565, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748820241579560, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748820241579675, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748820241579833, "dur":669, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748820241580707, "dur":220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1748820241581032, "dur":82, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1748820241581116, "dur":204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1748820241581115, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1748820241581345, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1748820241581344, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UI.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1748820241581508, "dur":662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1748820241582318, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1748820241582317, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.VFXModule.pdb" }}
-,{ "pid":12345, "tid":8, "ts":1748820241582449, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1748820241582909, "dur":83853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748820241573123, "dur":5176, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748820241578303, "dur":282, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748820241578586, "dur":949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748820241579551, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748820241579697, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748820241579811, "dur":748, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1748820241580820, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":9, "ts":1748820241581312, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonRealtime.pdb" }}
-,{ "pid":12345, "tid":9, "ts":1748820241581479, "dur":27084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":9, "ts":1748820241608575, "dur":58217, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748820241573146, "dur":5188, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748820241578335, "dur":1061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748820241579466, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748820241579722, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1748820241579800, "dur":775, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1748820241580708, "dur":32767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/resources.assets" }}
-,{ "pid":12345, "tid":10, "ts":1748820241613485, "dur":53326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748820241573166, "dur":5180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748820241578348, "dur":1030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748820241579391, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748820241579380, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748820241579478, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748820241579738, "dur":114, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1748820241579863, "dur":633, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748820241580652, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748820241581249, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":11, "ts":1748820241582555, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1748820241582945, "dur":83857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748820241573193, "dur":5166, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748820241578360, "dur":1027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748820241579438, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748820241579548, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748820241579680, "dur":156, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748820241579857, "dur":651, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748820241580812, "dur":865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":12, "ts":1748820241582023, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748820241582164, "dur":380, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748820241582552, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748820241582551, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748820241582607, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1748820241582686, "dur":82, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":12, "ts":1748820241582931, "dur":83853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1748820241669130, "dur":161, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1748825015211354, "dur":4885, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748825015216248, "dur":64, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748825015216349, "dur":327, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748825015216696, "dur":4839, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748825015221542, "dur":88560, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748825015310297, "dur":1002, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1748825015216412, "dur":5142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748825015221556, "dur":1163, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748825015223189, "dur":152, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
+,{ "pid":12345, "tid":1, "ts":1748825015223414, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748825015223670, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748825015223797, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748825015224013, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748825015224112, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748825015224191, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748825015224267, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748825015224397, "dur":261, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748825015223346, "dur":1593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1748825015225200, "dur":444, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748825015225941, "dur":83009, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1748825015309783, "dur":222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1748825015216434, "dur":5130, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748825015221567, "dur":355, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748825015221923, "dur":816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748825015222761, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748825015223009, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1748825015223416, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748825015223612, "dur":495, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748825015224110, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1748825015224108, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.TextMeshPro.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1748825015224260, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748825015224758, "dur":389, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1748825015224757, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.PerformanceReportingModule.pdb" }}
+,{ "pid":12345, "tid":2, "ts":1748825015225156, "dur":474, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748825015225655, "dur":73, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748825015225739, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748825015225917, "dur":84146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748825015216493, "dur":5093, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748825015221588, "dur":278, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748825015221868, "dur":853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748825015222752, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":3, "ts":1748825015222993, "dur":97, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1748825015223400, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748825015223612, "dur":691, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748825015224310, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/level1.resS" }}
+,{ "pid":12345, "tid":3, "ts":1748825015225156, "dur":513, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748825015225690, "dur":178, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748825015225884, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748825015225944, "dur":84143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748825015216488, "dur":5087, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748825015221578, "dur":379, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748825015221959, "dur":766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748825015222732, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748825015222726, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748825015222805, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748825015223009, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748825015223331, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.ImageConversionModule.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1748825015223405, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748825015223630, "dur":1147, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748825015224796, "dur":12609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1748825015237418, "dur":72674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748825015216513, "dur":5084, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748825015221600, "dur":351, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748825015221952, "dur":773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748825015222747, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748825015222867, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_development_mono/Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1748825015222866, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1748825015223007, "dur":69, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1748825015223079, "dur":405, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1748825015223077, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UI.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1748825015223570, "dur":86, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748825015223699, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1748825015225956, "dur":84111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748825015216534, "dur":5073, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748825015221609, "dur":250, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748825015221860, "dur":870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748825015222757, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748825015223070, "dur":391, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1748825015223069, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonRealtime.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1748825015223583, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748825015223653, "dur":542, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748825015224257, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748825015224692, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748825015224861, "dur":343, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.HotReloadModule.pdb" }}
+,{ "pid":12345, "tid":6, "ts":1748825015225220, "dur":424, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748825015225716, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748825015225893, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748825015225953, "dur":84105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748825015216559, "dur":5059, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748825015221620, "dur":383, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748825015222005, "dur":762, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748825015222769, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":7, "ts":1748825015223076, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1748825015223075, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.Flow.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1748825015223381, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748825015223563, "dur":64, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748825015223651, "dur":436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1748825015224167, "dur":101, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748825015224272, "dur":324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1748825015224639, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.ClusterRendererModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1748825015224772, "dur":892, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1748825015224771, "dur":895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.SubstanceModule.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1748825015225690, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748825015225689, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748825015225835, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1748825015225833, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.Demos.pdb" }}
+,{ "pid":12345, "tid":7, "ts":1748825015225960, "dur":84091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748825015216585, "dur":5043, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748825015221631, "dur":317, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748825015221949, "dur":788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748825015222763, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748825015223396, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748825015223648, "dur":36503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1748825015260163, "dur":49885, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748825015216617, "dur":5020, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748825015221640, "dur":299, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748825015221941, "dur":781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748825015222729, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748825015222725, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748825015223421, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748825015223534, "dur":81, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748825015223636, "dur":227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1748825015223891, "dur":294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1748825015224237, "dur":242, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748825015224235, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748825015224601, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748825015224749, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748825015224748, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.Physics2DModule.pdb" }}
+,{ "pid":12345, "tid":9, "ts":1748825015225189, "dur":470, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748825015225716, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748825015225929, "dur":84132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748825015216638, "dur":5013, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748825015221652, "dur":1091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748825015222763, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748825015223056, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1748825015223055, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1748825015223293, "dur":84, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.UmbraModule.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1748825015223396, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748825015223634, "dur":406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/level0.resS" }}
+,{ "pid":12345, "tid":10, "ts":1748825015224168, "dur":87, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/PhotonUnityNetworking.Utilities.pdb" }}
+,{ "pid":12345, "tid":10, "ts":1748825015224286, "dur":236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":10, "ts":1748825015224702, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1748825015225913, "dur":84164, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748825015216657, "dur":5004, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748825015221662, "dur":1071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748825015222763, "dur":227, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748825015223060, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1748825015223059, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.Timeline.pdb" }}
+,{ "pid":12345, "tid":11, "ts":1748825015223419, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/archkubi/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748825015223418, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748825015223634, "dur":39530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1748825015263176, "dur":46879, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748825015216687, "dur":4988, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748825015221676, "dur":1069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748825015222759, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748825015222970, "dur":69, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/UnityPlayer.so" }}
+,{ "pid":12345, "tid":12, "ts":1748825015223082, "dur":464, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/SSD/Github/GnuChanOS_Universe/testProject/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1748825015223080, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/Unity.VisualScripting.Core.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1748825015223577, "dur":90, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748825015223790, "dur":238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/SSD/Github/Export/test_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1748825015224073, "dur":172, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748825015224476, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748825015224686, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748825015224802, "dur":65, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.ParticleSystemModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1748825015224889, "dur":343, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/Managed/UnityEngine.GameCenterModule.pdb" }}
+,{ "pid":12345, "tid":12, "ts":1748825015225236, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /SSD/Github/Export/test_Data/app.info" }}
+,{ "pid":12345, "tid":12, "ts":1748825015225739, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748825015225935, "dur":84160, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748825015312560, "dur":125, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
