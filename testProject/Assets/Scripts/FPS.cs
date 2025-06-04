@@ -6,7 +6,7 @@ public class FPS : MonoBehaviour
     public Transform head;
 
     private CharacterController characterController;
-    private float speed = 5;
+    private float speed = 2;
     private float gravity = -9.81f;
     private Vector3 velocity;
 

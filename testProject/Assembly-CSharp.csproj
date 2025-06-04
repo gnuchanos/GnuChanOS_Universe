@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs" />
     <Compile Include="Assets/Scripts/FPS.cs" />
+    <Compile Include="Assets/Scripts/defaultSkin_BottomBodyAnim.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/AppSettingsExtensions.cs" />
     <Compile Include="Assets/Scripts/Maps.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs" />
+    <Compile Include="Assets/Scripts/defaultSkin_topBodyAnim.cs" />
     <Compile Include="Assets/Scripts/CreateRoom.cs" />
     <Compile Include="Assets/Scripts/PlayerSpawn.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs" />

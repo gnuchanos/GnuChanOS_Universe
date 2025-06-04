@@ -8,12 +8,14 @@ public class bodyChange : MonoBehaviourPun
 
     void Start()
     {
-        SetBody(0); // Varsayılan body0
+        SetBody(0);
     }
 
     void Update()
     {
-        if (!photonView.IsMine) return; // Sadece kendi oyuncum değiştirir
+        if (!photonView.IsMine) {
+            return;
+        }
 
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
