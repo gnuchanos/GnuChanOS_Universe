@@ -390,6 +390,8 @@
 "Assets/Scripts/PlayerIdentity.cs"
 "Assets/Scripts/PlayerSpawn.cs"
 "Assets/Scripts/bodyChange.cs"
+"Assets/Scripts/defaultSkin_BottomBodyAnim.cs"
+"Assets/Scripts/defaultSkin_topBodyAnim.cs"
 -langversion:9.0
 /deterministic
 /optimize+

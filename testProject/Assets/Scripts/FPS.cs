@@ -1,8 +1,7 @@
 using UnityEngine;
 using Photon.Pun;
 
-public class FPS : MonoBehaviour
-{
+public class FPS : MonoBehaviour {
     public Transform head;
 
     private CharacterController characterController;
@@ -15,25 +14,20 @@ public class FPS : MonoBehaviour
 
     private PhotonView photonView;
 
-    void Start()
-    {
+    void Start() {
         photonView = GetComponent<PhotonView>();
         characterController = GetComponent<CharacterController>();
 
-        if (head == null)
-        {
+        if (head == null) {
             Debug.LogError("Head (kamera boş objesi) atanmadı!");
         }
 
-        if (photonView.IsMine)
-        {
+        if (photonView.IsMine) {
             Cursor.lockState = CursorLockMode.Locked;
         }
-        else
-        {
+        else {
             // Diğer oyuncular için kamerayı devre dışı bırak
-            if (head != null && head.GetComponentInChildren<Camera>() != null)
-            {
+            if (head != null && head.GetComponentInChildren<Camera>() != null) {
                 head.GetComponentInChildren<Camera>().enabled = false;
                 AudioListener listener = head.GetComponentInChildren<AudioListener>();
                 if (listener != null) listener.enabled = false;
@@ -41,9 +35,10 @@ public class FPS : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        if (!photonView.IsMine) return;
+    void Update() {
+        if (!photonView.IsMine) {
+            return;
+        }
 
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");

@@ -1,20 +1,30 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp:
+    - BottomBodyRotate
+    - DefaultSkin_BottomBodyAnim
+    - DefaultSkin_TopBodyAnim
     - FPS
+    - PlaySoundPlayer
     - PlayerIdentity
     - bodyChange
-    - defaultSkin_BottomBodyAnim
-    - defaultSkin_topBodyAnim
+    - fatihBodyRotate
+    - fatihBottom_Anim
+    - fatihTopBody_Anim
     Assembly-CSharp.dll:
+    - BottomBodyRotate
     - CreateRoom
+    - DefaultSkin_BottomBodyAnim
+    - DefaultSkin_TopBodyAnim
     - FPS
     - Maps
+    - PlaySoundPlayer
     - PlayerIdentity
     - PlayerSpawn
     - bodyChange
-    - defaultSkin_BottomBodyAnim
-    - defaultSkin_topBodyAnim
+    - fatihBodyRotate
+    - fatihBottom_Anim
+    - fatihTopBody_Anim
     PhotonUnityNetworking:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -31,10 +41,7 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
-    PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
-    - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonTransformView
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
@@ -43,8 +50,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     - UnityEditor.Graphs.ParameterControllerEditor
     UnityEditor.TestRunner.dll:
@@ -95,11 +104,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -118,19 +127,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 4254}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 5112}
+      Script: {instanceID: 4256}
     - Class: 114
-      Script: {instanceID: 5544}
+      Script: {instanceID: 5114}
     - Class: 114
-      Script: {instanceID: 6380}
+      Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 6552}
+      Script: {instanceID: 6554}
     - Class: 114
-      Script: {instanceID: 7616}
+      Script: {instanceID: 7618}
     - Class: 114
-      Script: {instanceID: 7866}
+      Script: {instanceID: 7868}
+    - Class: 114
+      Script: {instanceID: 43852}
+    - Class: 114
+      Script: {instanceID: 44236}
+    - Class: 114
+      Script: {instanceID: 44806}
+    - Class: 114
+      Script: {instanceID: 47834}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -172,6 +189,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -197,41 +216,51 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3212}
+      Script: {instanceID: 3140}
     - Class: 114
-      Script: {instanceID: 3956}
+      Script: {instanceID: 3214}
     - Class: 114
-      Script: {instanceID: 3962}
+      Script: {instanceID: 3958}
     - Class: 114
-      Script: {instanceID: 4126}
+      Script: {instanceID: 3964}
     - Class: 114
-      Script: {instanceID: 4254}
+      Script: {instanceID: 4128}
     - Class: 114
-      Script: {instanceID: 5208}
+      Script: {instanceID: 4256}
     - Class: 114
-      Script: {instanceID: 5224}
+      Script: {instanceID: 5210}
     - Class: 114
-      Script: {instanceID: 5544}
+      Script: {instanceID: 5226}
     - Class: 114
-      Script: {instanceID: 5638}
+      Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 5680}
+      Script: {instanceID: 5640}
     - Class: 114
-      Script: {instanceID: 6380}
+      Script: {instanceID: 5682}
     - Class: 114
-      Script: {instanceID: 6552}
+      Script: {instanceID: 6382}
     - Class: 114
-      Script: {instanceID: 6984}
+      Script: {instanceID: 6554}
     - Class: 114
-      Script: {instanceID: 7504}
+      Script: {instanceID: 6986}
     - Class: 114
-      Script: {instanceID: 7616}
+      Script: {instanceID: 7506}
     - Class: 114
-      Script: {instanceID: 7866}
+      Script: {instanceID: 7618}
     - Class: 114
-      Script: {instanceID: 7992}
+      Script: {instanceID: 7868}
     - Class: 114
-      Script: {instanceID: 8290}
+      Script: {instanceID: 7994}
+    - Class: 114
+      Script: {instanceID: 8292}
+    - Class: 114
+      Script: {instanceID: 43852}
+    - Class: 114
+      Script: {instanceID: 44236}
+    - Class: 114
+      Script: {instanceID: 44806}
+    - Class: 114
+      Script: {instanceID: 47834}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -587,10 +616,10 @@ ScriptsOnlyBuild:
     className: OnEscapeQuit
   - hash:
       serializedVersion: 2
-      Hash: 68c0a92425caa836b7a32d6246e71965
+      Hash: d19734cd93a33f3e9a339e3a8a50ca7e
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: defaultSkin_BottomBodyAnim
+    className: DefaultSkin_BottomBodyAnim
   - hash:
       serializedVersion: 2
       Hash: fce9b835d1e8b08e7ecea8da19f21986
@@ -681,6 +710,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: Photon.Chat.Demo
     className: ChannelSelector
+  - hash:
+      serializedVersion: 2
+      Hash: 44b97991558d0df28626d520af3727d0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BottomBodyRotate
   - hash:
       serializedVersion: 2
       Hash: e46d875bf9144cadef23d6a0e070997e
@@ -989,10 +1024,10 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: 0797dc0e5a6c4c4ed904859a48e6a3c7
+      Hash: d2db60b55ef3ee3c0ac714d916e1bac6
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: defaultSkin_topBodyAnim
+    className: DefaultSkin_TopBodyAnim
   - hash:
       serializedVersion: 2
       Hash: abe45bd8b738517a7858b31677f78653
@@ -2013,6 +2048,36 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 24784197b6f5bd45efdd217094684e3f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HideOwnBody
+  - hash:
+      serializedVersion: 2
+      Hash: 7853481bd6bb11c5a32522038d70ed97
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: fatihBottom_Anim
+  - hash:
+      serializedVersion: 2
+      Hash: 68741a96d4a608442f04e17d6c185047
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: fatihTopBody_Anim
+  - hash:
+      serializedVersion: 2
+      Hash: de7d16af1e0eead966ec456589e9c933
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: fatihBodyRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 4e2f85534b0b1ea82650ce8018b8a20c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlaySoundPlayer
   platform: 24
   scenePathNames:
   - Assets/Scenes/mainScene.unity

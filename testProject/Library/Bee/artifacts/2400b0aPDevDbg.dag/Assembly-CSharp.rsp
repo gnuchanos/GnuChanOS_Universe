@@ -333,11 +333,17 @@
 "Assets/Scripts/CreateRoom.cs"
 "Assets/Scripts/FPS.cs"
 "Assets/Scripts/Maps.cs"
+"Assets/Scripts/PlaySoundPlayer.cs"
 "Assets/Scripts/PlayerIdentity.cs"
 "Assets/Scripts/PlayerSpawn.cs"
 "Assets/Scripts/bodyChange.cs"
 "Assets/Scripts/defaultSkin_BottomBodyAnim.cs"
+"Assets/Scripts/defaultSkin_Rotate.cs"
 "Assets/Scripts/defaultSkin_topBodyAnim.cs"
+"Assets/Scripts/fatihBodyRotate.cs"
+"Assets/Scripts/fatihBottom_Anim.cs"
+"Assets/Scripts/fatihTopBody_Anim.cs"
+"Assets/Scripts/hideOwnBody.cs"
 -langversion:9.0
 /deterministic
 /optimize-

@@ -4,6 +4,8 @@ ScriptsOnlyBuild:
     - FPS
     - PlayerIdentity
     - bodyChange
+    - defaultSkin_BottomBodyAnim
+    - defaultSkin_topBodyAnim
     Assembly-CSharp.dll:
     - CreateRoom
     - FPS
@@ -11,6 +13,8 @@ ScriptsOnlyBuild:
     - PlayerIdentity
     - PlayerSpawn
     - bodyChange
+    - defaultSkin_BottomBodyAnim
+    - defaultSkin_topBodyAnim
     PhotonUnityNetworking:
     - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonRigidbodyView
@@ -30,11 +34,21 @@ ScriptsOnlyBuild:
     PhotonUnityNetworking.Editor.dll:
     - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
+    - Photon.Pun.PhotonAnimatorView
     - Photon.Pun.PhotonTransformView
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
+    - UnityEditor.Graphs.ParameterControllerEditor
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -85,9 +99,15 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -96,17 +116,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2354}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 2862}
     - Class: 114
-      Script: {instanceID: 5108}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 5540}
+      Script: {instanceID: 4254}
     - Class: 114
-      Script: {instanceID: 6548}
+      Script: {instanceID: 5112}
     - Class: 114
-      Script: {instanceID: 7612}
+      Script: {instanceID: 5544}
     - Class: 114
-      Script: {instanceID: 7862}
+      Script: {instanceID: 6380}
+    - Class: 114
+      Script: {instanceID: 6552}
+    - Class: 114
+      Script: {instanceID: 7616}
+    - Class: 114
+      Script: {instanceID: 7866}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -169,41 +195,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1794}
     - Class: 114
-      Script: {instanceID: 3118}
+      Script: {instanceID: 2862}
     - Class: 114
-      Script: {instanceID: 3210}
+      Script: {instanceID: 3120}
     - Class: 114
-      Script: {instanceID: 3954}
+      Script: {instanceID: 3212}
     - Class: 114
-      Script: {instanceID: 3960}
+      Script: {instanceID: 3956}
     - Class: 114
-      Script: {instanceID: 4124}
+      Script: {instanceID: 3962}
     - Class: 114
-      Script: {instanceID: 5204}
+      Script: {instanceID: 4126}
     - Class: 114
-      Script: {instanceID: 5220}
+      Script: {instanceID: 4254}
     - Class: 114
-      Script: {instanceID: 5540}
+      Script: {instanceID: 5208}
     - Class: 114
-      Script: {instanceID: 5634}
+      Script: {instanceID: 5224}
     - Class: 114
-      Script: {instanceID: 5676}
+      Script: {instanceID: 5544}
     - Class: 114
-      Script: {instanceID: 6376}
+      Script: {instanceID: 5638}
     - Class: 114
-      Script: {instanceID: 6548}
+      Script: {instanceID: 5680}
     - Class: 114
-      Script: {instanceID: 6980}
+      Script: {instanceID: 6380}
     - Class: 114
-      Script: {instanceID: 7500}
+      Script: {instanceID: 6552}
     - Class: 114
-      Script: {instanceID: 7612}
+      Script: {instanceID: 6984}
     - Class: 114
-      Script: {instanceID: 7862}
+      Script: {instanceID: 7504}
     - Class: 114
-      Script: {instanceID: 7988}
+      Script: {instanceID: 7616}
     - Class: 114
-      Script: {instanceID: 8286}
+      Script: {instanceID: 7866}
+    - Class: 114
+      Script: {instanceID: 7992}
+    - Class: 114
+      Script: {instanceID: 8290}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -557,6 +587,12 @@ ScriptsOnlyBuild:
     assemblyName: PhotonUnityNetworking.Utilities
     namespaceName: Photon.Pun.UtilityScripts
     className: OnEscapeQuit
+  - hash:
+      serializedVersion: 2
+      Hash: 68c0a92425caa836b7a32d6246e71965
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: defaultSkin_BottomBodyAnim
   - hash:
       serializedVersion: 2
       Hash: fce9b835d1e8b08e7ecea8da19f21986
@@ -953,6 +989,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 0797dc0e5a6c4c4ed904859a48e6a3c7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: defaultSkin_topBodyAnim
   - hash:
       serializedVersion: 2
       Hash: abe45bd8b738517a7858b31677f78653
@@ -1977,4 +2019,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/mainScene.unity
   - Assets/Scenes/mainGameHUB.unity
-  playerPath: /home/archkubi/Downloads/test/testProject.exe
+  playerPath: /home/archkubi/Downloads/dd/test/testProject.exe

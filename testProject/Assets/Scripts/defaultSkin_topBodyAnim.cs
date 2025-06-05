@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 
-public class defaultSkin_topBodyAnim : MonoBehaviourPun, IPunObservable {
+public class DefaultSkin_TopBodyAnim : MonoBehaviourPun, IPunObservable {
 
     public Animator TopBodyAnim;
 
@@ -12,30 +10,22 @@ public class defaultSkin_topBodyAnim : MonoBehaviourPun, IPunObservable {
 
     void Update() {
         if (photonView.IsMine) {
-            if (Input.GetKey(KeyCode.W)) {
-                forward = true; 
-                backward = false;
-            } else if (Input.GetKey(KeyCode.S)) {
-                forward = false; 
-                backward = true;
-            } else {
-                forward = false; 
-                backward = false;
-            }
+            forward = Input.GetKey(KeyCode.W);
+            backward = Input.GetKey(KeyCode.S);
 
             TopBodyAnim.SetBool("forward", forward);
             TopBodyAnim.SetBool("backward", backward);
         }
     }
 
-
-
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info) {
         if (stream.IsWriting) {
-            stream.SendNext(forward); stream.SendNext(backward);
+            stream.SendNext(forward);
+            stream.SendNext(backward);
         } else {
-            forward = (bool)stream.ReceiveNext(); backward = (bool)stream.ReceiveNext();
-            // Animatörü güncelle hemen veri gelince
+            forward = (bool)stream.ReceiveNext();
+            backward = (bool)stream.ReceiveNext();
+
             TopBodyAnim.SetBool("forward", forward);
             TopBodyAnim.SetBool("backward", backward);
         }
