@@ -5708,3 +5708,1112 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: 72892f9e6f0e065dd70e698884c1531e -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Import Request.
+  Time since last request: 1605.175027 seconds.
+  path: Assets/Scripts/CardisHUB.cs
+  artifactKey: Guid(2c04fcce9ad552ffb8361b2eefd4ea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardisHUB.cs using Guid(2c04fcce9ad552ffb8361b2eefd4ea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7afff7cff1e2ab7470db2c348f0a30c3') in 0.002880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.463 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.860 seconds
+Domain Reload Profiling: 1324ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (861ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (535ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.7 KB). Loaded Objects now: 4078.
+Memory consumption went from 123.7 MB to 123.7 MB.
+Total: 3.891137 ms (FindLiveObjects: 0.295009 ms CreateObjectMapping: 0.198629 ms MarkObjects: 3.341626 ms  DeleteObjects: 0.048749 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Import Request.
+  Time since last request: 6.223446 seconds.
+  path: Assets/Scripts/CardisHUB.cs
+  artifactKey: Guid(2c04fcce9ad552ffb8361b2eefd4ea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CardisHUB.cs using Guid(2c04fcce9ad552ffb8361b2eefd4ea93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '448f0d4679edb083d9e5d4db01e3ef87') in 0.008135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.510 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.838 seconds
+Domain Reload Profiling: 1348ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (275ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (36ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (839ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.6 KB). Loaded Objects now: 4082.
+Memory consumption went from 123.7 MB to 123.7 MB.
+Total: 4.007353 ms (FindLiveObjects: 0.342082 ms CreateObjectMapping: 0.217416 ms MarkObjects: 3.388000 ms  DeleteObjects: 0.050775 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Import Request.
+  Time since last request: 337.762789 seconds.
+  path: Assets/3D/Cardis/Cardis_rotate.fbx
+  artifactKey: Guid(5266ee3bda4fe00e9a01bbf69ce5efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Cardis/Cardis_rotate.fbx using Guid(5266ee3bda4fe00e9a01bbf69ce5efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2bb6f7222d20bb4e2fd14bd1cee1d50') in 0.181633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 103.179049 seconds.
+  path: Assets/3D/Cardis/Cardis_rotate.fbx
+  artifactKey: Guid(5266ee3bda4fe00e9a01bbf69ce5efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Cardis/Cardis_rotate.fbx using Guid(5266ee3bda4fe00e9a01bbf69ce5efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c9cd4327124898142f511c4dcf42fcaf') in 0.029409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.521 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.831 seconds
+Domain Reload Profiling: 1352ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (329ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (832ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (526ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.7 KB). Loaded Objects now: 4086.
+Memory consumption went from 123.7 MB to 123.7 MB.
+Total: 3.094597 ms (FindLiveObjects: 0.230476 ms CreateObjectMapping: 0.065651 ms MarkObjects: 2.750349 ms  DeleteObjects: 0.040927 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 4086.
+Memory consumption went from 71.2 MB to 71.2 MB.
+Total: 3.276394 ms (FindLiveObjects: 0.369251 ms CreateObjectMapping: 0.087511 ms MarkObjects: 2.805733 ms  DeleteObjects: 0.007194 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 4086.
+Memory consumption went from 70.8 MB to 70.8 MB.
+Total: 3.034673 ms (FindLiveObjects: 0.274476 ms CreateObjectMapping: 0.066768 ms MarkObjects: 2.675619 ms  DeleteObjects: 0.010127 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Import Request.
+  Time since last request: 403.050906 seconds.
+  path: Assets/Resources/Maps/CardisHUB.prefab
+  artifactKey: Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Maps/CardisHUB.prefab using Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0503071d2f254e43a454028a9a753d8') in 0.118926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 247
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.466 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.814 seconds
+Domain Reload Profiling: 1281ms
+	BeginReloadAssembly (154ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (289ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (815ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (516ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.7 KB). Loaded Objects now: 4090.
+Memory consumption went from 123.9 MB to 123.9 MB.
+Total: 3.353638 ms (FindLiveObjects: 0.348648 ms CreateObjectMapping: 0.073752 ms MarkObjects: 2.875086 ms  DeleteObjects: 0.049447 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Import Request.
+  Time since last request: 149.510532 seconds.
+  path: Assets/Resources/Maps/CardisHUB.prefab
+  artifactKey: Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Maps/CardisHUB.prefab using Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b44ab9405798fec3a90fc18681d1e7c') in 0.119117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 247
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 4091.
+Memory consumption went from 71.1 MB to 71.1 MB.
+Total: 5.006153 ms (FindLiveObjects: 0.294940 ms CreateObjectMapping: 0.074032 ms MarkObjects: 4.612807 ms  DeleteObjects: 0.017111 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.447 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.817 seconds
+Domain Reload Profiling: 1264ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (262ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (818ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (521ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.6 KB). Loaded Objects now: 4094.
+Memory consumption went from 124.0 MB to 123.9 MB.
+Total: 3.026991 ms (FindLiveObjects: 0.289073 ms CreateObjectMapping: 0.067327 ms MarkObjects: 2.624356 ms  DeleteObjects: 0.038063 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Import Request.
+  Time since last request: 63.287310 seconds.
+  path: Assets/Resources/Maps/CardisHUB.prefab
+  artifactKey: Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Maps/CardisHUB.prefab using Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7d8df08deae48157203763ac56213b0') in 0.146816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 247
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 4095.
+Memory consumption went from 71.1 MB to 71.1 MB.
+Total: 5.003149 ms (FindLiveObjects: 0.294940 ms CreateObjectMapping: 0.076895 ms MarkObjects: 4.610642 ms  DeleteObjects: 0.013620 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.441 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.822 seconds
+Domain Reload Profiling: 1264ms
+	BeginReloadAssembly (157ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (823ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (525ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (366ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.6 KB). Loaded Objects now: 4098.
+Memory consumption went from 124.0 MB to 123.9 MB.
+Total: 3.822553 ms (FindLiveObjects: 0.398515 ms CreateObjectMapping: 0.212457 ms MarkObjects: 3.158921 ms  DeleteObjects: 0.044489 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 4098.
+Memory consumption went from 71.4 MB to 71.4 MB.
+Total: 3.866623 ms (FindLiveObjects: 0.302832 ms CreateObjectMapping: 0.066838 ms MarkObjects: 3.478655 ms  DeleteObjects: 0.011105 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.457 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.823 seconds
+Domain Reload Profiling: 1281ms
+	BeginReloadAssembly (161ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (824ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.7 KB). Loaded Objects now: 4102.
+Memory consumption went from 124.0 MB to 123.9 MB.
+Total: 3.170444 ms (FindLiveObjects: 0.301575 ms CreateObjectMapping: 0.081365 ms MarkObjects: 2.738407 ms  DeleteObjects: 0.041416 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Import Request.
+  Time since last request: 90.669606 seconds.
+  path: Assets/Resources/Maps/CardisHUB.prefab
+  artifactKey: Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Maps/CardisHUB.prefab using Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '21739ac1a1ca0620831ad134d9042398') in 0.122350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 247
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.439 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.843 seconds
+Domain Reload Profiling: 1282ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (210ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (843ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (550ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.7 KB). Loaded Objects now: 4106.
+Memory consumption went from 124.0 MB to 123.9 MB.
+Total: 4.088159 ms (FindLiveObjects: 0.402146 ms CreateObjectMapping: 0.089606 ms MarkObjects: 3.541581 ms  DeleteObjects: 0.046305 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 4106.
+Memory consumption went from 71.4 MB to 71.4 MB.
+Total: 4.157302 ms (FindLiveObjects: 0.452921 ms CreateObjectMapping: 0.087790 ms MarkObjects: 3.591658 ms  DeleteObjects: 0.018717 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Import Request.
+  Time since last request: 317.313263 seconds.
+  path: Assets/Resources/Maps/CardisHUB.prefab
+  artifactKey: Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Maps/CardisHUB.prefab using Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4bf7de8b4823ffd26213272da2f9447') in 0.125997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 247
+========================================================================
+Received Import Request.
+  Time since last request: 2.968345 seconds.
+  path: Assets/Resources/Maps/CardisHUB.prefab
+  artifactKey: Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Maps/CardisHUB.prefab using Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '83013dffa11ac3973c9d8719168be46a') in 0.017781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 247
+========================================================================
+Received Import Request.
+  Time since last request: 6.052695 seconds.
+  path: Assets/Resources/Maps/CardisHUB.prefab
+  artifactKey: Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Maps/CardisHUB.prefab using Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2f8a4865625d0f3277175ffcfa666a85') in 0.019676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 247
+========================================================================
+Received Import Request.
+  Time since last request: 16.259655 seconds.
+  path: Assets/Resources/Maps/CardisHUB.prefab
+  artifactKey: Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Maps/CardisHUB.prefab using Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '88b4dd42a04fcbbc9fac443374c803bf') in 0.018774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 247
+========================================================================
+Received Import Request.
+  Time since last request: 4.911552 seconds.
+  path: Assets/Resources/Maps/CardisHUB.prefab
+  artifactKey: Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Maps/CardisHUB.prefab using Guid(3271ceeb3a5f91df8a77a424407ffbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3e690f158542128c319c4cd9178e3cdb') in 0.020832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 247
+========================================================================
+Received Import Request.
+  Time since last request: 508.243658 seconds.
+  path: Assets/SpaceSkies Free
+  artifactKey: Guid(6e6968fa7ca2de8aa87620a8a45d41c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free using Guid(6e6968fa7ca2de8aa87620a8a45d41c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6ee3deb5e7ceb7de65d93ef48facb74f') in 0.000411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.503182 seconds.
+  path: Assets/SpaceSkies Free/Skybox_1
+  artifactKey: Guid(9a2b23d02abff604bb3b2c8b76ee104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_1 using Guid(9a2b23d02abff604bb3b2c8b76ee104b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4d659db3492c104a9fef00c2fb1f6f2') in 0.000427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.123324 seconds.
+  path: Assets/SpaceSkies Free/Skybox_1/Pink_1K_Resolution.mat
+  artifactKey: Guid(3e8bc5155c4c9ed46a63ac64c06408f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_1/Pink_1K_Resolution.mat using Guid(3e8bc5155c4c9ed46a63ac64c06408f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '01b57ed65374fe9a207c26c16091f718') in 0.502760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SpaceSkies Free/Skybox_1/Pink_4K_Resolution.mat
+  artifactKey: Guid(8401881fcb9afd34eb383fc90bbbbddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_1/Pink_4K_Resolution.mat using Guid(8401881fcb9afd34eb383fc90bbbbddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2679aee3f127652927bcd28565ce8d5') in 0.013103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.080878 seconds.
+  path: Assets/SpaceSkies Free/Skybox_1/Textures/1K_Resolution/Front_1K_TEX.png
+  artifactKey: Guid(94cdbf28af4a2b942b032dd0a5d91221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_1/Textures/1K_Resolution/Front_1K_TEX.png using Guid(94cdbf28af4a2b942b032dd0a5d91221) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4ef6c61ddb16bacbc567237688a24e25') in 0.015702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.060316 seconds.
+  path: Assets/SpaceSkies Free/Skybox_1/Textures/1K_Resolution/Right_1K_TEX.png
+  artifactKey: Guid(41f70e70af801c8479aa11cebd1babde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_1/Textures/1K_Resolution/Right_1K_TEX.png using Guid(41f70e70af801c8479aa11cebd1babde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78dc568fe0633d4ba4ab14a160795421') in 0.007214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SpaceSkies Free/Skybox_1/Textures/1K_Resolution/Left_1K_TEX.png
+  artifactKey: Guid(25c03fdd40dca27499a5ecdf702bb73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_1/Textures/1K_Resolution/Left_1K_TEX.png using Guid(25c03fdd40dca27499a5ecdf702bb73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb0b652da8983f5f3326703150feaeeb') in 0.008880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 4109.
+Memory consumption went from 71.5 MB to 71.5 MB.
+Total: 3.737067 ms (FindLiveObjects: 0.261905 ms CreateObjectMapping: 0.070121 ms MarkObjects: 3.385136 ms  DeleteObjects: 0.012292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+========================================================================
+Received Import Request.
+  Time since last request: 97.711361 seconds.
+  path: Assets/SpaceSkies Free/Skybox_2/Green_2K_Resoution.mat
+  artifactKey: Guid(269967744bbed1849a317b8175dc3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_2/Green_2K_Resoution.mat using Guid(269967744bbed1849a317b8175dc3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e9c00e6148d0f37d127c0a817419cf8') in 0.159064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SpaceSkies Free/Skybox_2/Green_4K_Resolution.mat
+  artifactKey: Guid(b13109bc4674dd24ebc04b7c12437ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_2/Green_4K_Resolution.mat using Guid(b13109bc4674dd24ebc04b7c12437ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '343ed7881d126a8141992c15fc69e592') in 0.053113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 49.769651 seconds.
+  path: Assets/SpaceSkies Free/Skybox_3/Purple_2K_Resolution.mat
+  artifactKey: Guid(246d4b1ad4a63004d8fcf3949494e5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_3/Purple_2K_Resolution.mat using Guid(246d4b1ad4a63004d8fcf3949494e5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '092c7c89bfc85968757a548ab79d7b80') in 0.083626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 36.554552 seconds.
+  path: Assets/SpaceSkies Free/Skybox_3/Textures/1K_Resolution/Back_1K_TEX.png
+  artifactKey: Guid(96c199bf2da6633479ea4536ce66bec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_3/Textures/1K_Resolution/Back_1K_TEX.png using Guid(96c199bf2da6633479ea4536ce66bec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7124a178f1256c6f3178ebc35eeda19e') in 0.019806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.029921 seconds.
+  path: Assets/SpaceSkies Free/Skybox_3/Textures/1K_Resolution/Left_1K_TEX.png
+  artifactKey: Guid(c7cf8f63aa26f9c439bf607be6b4fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_3/Textures/1K_Resolution/Left_1K_TEX.png using Guid(c7cf8f63aa26f9c439bf607be6b4fe8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '272ca472840574e6b73d2c719fcf4cfa') in 0.007979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SpaceSkies Free/Skybox_3/Textures/1K_Resolution/Down_1K_TEX.png
+  artifactKey: Guid(f1285d1399d96f0438d3759ba234d28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceSkies Free/Skybox_3/Textures/1K_Resolution/Down_1K_TEX.png using Guid(f1285d1399d96f0438d3759ba234d28e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '410e895786d2cd3be56fe964863617e4') in 0.008504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 4109.
+Memory consumption went from 71.5 MB to 71.5 MB.
+Total: 6.160280 ms (FindLiveObjects: 0.248565 ms CreateObjectMapping: 0.069073 ms MarkObjects: 5.828255 ms  DeleteObjects: 0.007194 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/defaultSkin_Rotate.cs: 969f18b69aa978be33d5e7dd7260437f -> bf243ed4de5eeb74a4b6dbf11d6e4cec
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/fatihTopBody_Anim.cs: 964efad4a86373a83c6260b98538ce0d -> 
+  custom:scripting/monoscript/fileName/fatihBottom_Anim.cs: e2207a4fc3211592e98b942d00ba1059 -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/defaultSkin_BottomBodyAnim.cs: 7c03d776b206eca95120fed3945a2167 -> 9cdb1c55c2794087535c3d224936d593
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/fatihBodyRotate.cs: eb9fb16c71a471c17dadd7ca4ae1ed94 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/defaultSkin_topBodyAnim.cs: 65069b97d01d47462c8151cb2bd618ae -> d25ec84f39f1a377e30b616aa517b4da
+  custom:scripting/monoscript/fileName/hideOwnBody.cs: 7abd9cae5ffc44eb408c75f7ae11a89c -> 
+  custom:scripting/monoscript/fileName/CardisHUB.cs: 84af649d71729bd9d417cbc78b208d74 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/PlaySoundPlayer.cs: e44af50eb442cd5a0168554f14cf0fd5 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 4bd7dd7487e2c78c4983f8e998bdd5a5 -> fbad71425553385ad5f71a0f6d3ba30b
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 125, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

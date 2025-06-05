@@ -330,6 +330,7 @@
 "Assets/Photon/PhotonChat/Demos/DemoChat/IgnoreUiRaycastWhenInactive.cs"
 "Assets/Photon/PhotonChat/Demos/DemoChat/NamePickGui.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
+"Assets/Scripts/CardisHUB.cs"
 "Assets/Scripts/CreateRoom.cs"
 "Assets/Scripts/FPS.cs"
 "Assets/Scripts/Maps.cs"

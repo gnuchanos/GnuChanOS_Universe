@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp:
     - BottomBodyRotate
+    - CardisHUB
     - DefaultSkin_BottomBodyAnim
     - DefaultSkin_TopBodyAnim
     - FPS
@@ -13,6 +14,7 @@ ScriptsOnlyBuild:
     - fatihTopBody_Anim
     Assembly-CSharp.dll:
     - BottomBodyRotate
+    - CardisHUB
     - CreateRoom
     - DefaultSkin_BottomBodyAnim
     - DefaultSkin_TopBodyAnim
@@ -41,6 +43,8 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.PunBasics.PlayerUI
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
+    PhotonUnityNetworking.Editor.dll:
+    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonTransformView
     - Photon.Pun.PhotonView
@@ -148,6 +152,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 44806}
     - Class: 114
       Script: {instanceID: 47834}
+    - Class: 114
+      Script: {instanceID: 49328}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -261,6 +267,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 44806}
     - Class: 114
       Script: {instanceID: 47834}
+    - Class: 114
+      Script: {instanceID: 49328}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2078,6 +2086,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlaySoundPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: d1a495cf2c78f3b24ba0ef1b3892e4c5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CardisHUB
   platform: 24
   scenePathNames:
   - Assets/Scenes/mainScene.unity

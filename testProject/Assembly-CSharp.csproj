@@ -76,6 +76,7 @@
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/ChannelSelector.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/ChatAppIdCheckerUI.cs" />
     <Compile Include="Assets/Scripts/fatihTopBody_Anim.cs" />
+    <Compile Include="Assets/Scripts/CardisHUB.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/Common/TextToggleIsOnTransition.cs" />
     <Compile Include="Assets/Photon/PhotonChat/Demos/DemoChat/FriendItem.cs" />
     <Compile Include="Assets/Scripts/defaultSkin_topBodyAnim.cs" />
