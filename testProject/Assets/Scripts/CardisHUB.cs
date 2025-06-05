@@ -5,30 +5,46 @@ using Photon.Pun;
 
 public class CardisHUB : MonoBehaviourPun {
 
-    public GameObject R0;
-    public GameObject R1;
-    public GameObject R2;
-    public GameObject R3;
+    public GameObject ring0;
+    public GameObject ring1;
+    public GameObject ring2;
+    public GameObject ring3;
 
-    public GameObject EnegySpiner;
+    public GameObject energySpinner;
 
     public float rotationSpeed = 30f;
 
+    public Animator doorAnimation;
+
+    private bool doorOpen = false;
+
     void Update() {
         if (PhotonNetwork.IsMasterClient) {
-            // Sadece MasterClient döndürür ve sonucu herkese yollar
             float delta = rotationSpeed * Time.deltaTime;
 
-            R0.transform.Rotate(0f, 0f, delta);
-            R1.transform.Rotate(0f, 0f, -delta);
-            R2.transform.Rotate(0f, 0f, delta);
-            R3.transform.Rotate(0f, 0f, -delta);
+            ring0.transform.Rotate(0f, 0f, delta);
+            ring1.transform.Rotate(0f, 0f, -delta);
+            ring2.transform.Rotate(0f, 0f, delta);
+            ring3.transform.Rotate(0f, 0f, -delta);
 
-            EnegySpiner.transform.Rotate(0f, 0f, -delta);
+            energySpinner.transform.Rotate(0f, 0f, -delta);
+
+            if (Input.GetKeyUp(KeyCode.E)) {
+                if (!doorOpen) { 
+                    doorOpen = true;
+                } else {
+                    doorOpen = false;
+                }
+                photonView.RPC("SetDoorStateRPC", RpcTarget.All, doorOpen);
+            }
+            Debug.Log(doorOpen);
         }
     }
 
-
-
-
+    [PunRPC]
+    void SetDoorStateRPC(bool open) {
+        if (doorAnimation != null) {
+            doorAnimation.SetBool("doorOpen", open);
+        }
+    }
 }
