@@ -2,6 +2,8 @@ using UnityEngine;
 using Photon.Pun;
 
 public class DefaultSkin_BottomBodyAnim : MonoBehaviourPun, IPunObservable {
+    public FPS fpsScript;
+    
     public Animator TopBodyAnim;
 
     bool forward = false;
@@ -9,16 +11,20 @@ public class DefaultSkin_BottomBodyAnim : MonoBehaviourPun, IPunObservable {
 
     void Update() {
         if (photonView.IsMine) {
-            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) {
-                forward = true;
-            } else {
-                forward = false;
+
+            if (!fpsScript.CameraIsMoving) {
+                if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D)) {
+                    forward = true;
+                } else {
+                    forward = false;
+                }
+
+                backward = Input.GetKey(KeyCode.S);
+
+                TopBodyAnim.SetBool("forward", forward);
+                TopBodyAnim.SetBool("backward", backward);
             }
 
-            backward = Input.GetKey(KeyCode.S);
-
-            TopBodyAnim.SetBool("forward", forward);
-            TopBodyAnim.SetBool("backward", backward);
         } else {
             TopBodyAnim.SetBool("forward", forward);
             TopBodyAnim.SetBool("backward", backward);

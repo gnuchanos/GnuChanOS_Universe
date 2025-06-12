@@ -2,6 +2,7 @@ using UnityEngine;
 using Photon.Pun;
 
 public class PlaySoundPlayer : MonoBehaviourPun {
+    public FPS fpsScript;
 
     public AudioClip WalkSound;
     [Range(0f, 1f)]
@@ -25,8 +26,10 @@ public class PlaySoundPlayer : MonoBehaviourPun {
             bool walkingNow = Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D);
 
             if (walkingNow != isWalking) {
-                isWalking = walkingNow;
-                photonView.RPC("RPC_PlayWalkSound", RpcTarget.All, isWalking);
+                if (!fpsScript.CameraIsMoving) {
+                    isWalking = walkingNow;
+                    photonView.RPC("RPC_PlayWalkSound", RpcTarget.All, isWalking);
+                }
             }
         }
     }

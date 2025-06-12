@@ -2,6 +2,7 @@ using UnityEngine;
 using Photon.Pun;
 
 public class fatihTopBody_Anim : MonoBehaviourPun, IPunObservable {
+    public FPS fpsScript;
 
     public Animator TopBodyAnim;
 
@@ -10,11 +11,13 @@ public class fatihTopBody_Anim : MonoBehaviourPun, IPunObservable {
 
     void Update() {
         if (photonView.IsMine) {
-            forward = Input.GetKey(KeyCode.W);
-            backward = Input.GetKey(KeyCode.S);
+            if (!fpsScript.CameraIsMoving) {
+                forward = Input.GetKey(KeyCode.W);
+                backward = Input.GetKey(KeyCode.S);
 
-            TopBodyAnim.SetBool("forward", forward);
-            TopBodyAnim.SetBool("backward", backward);
+                TopBodyAnim.SetBool("forward", forward);
+                TopBodyAnim.SetBool("backward", backward);
+            }
         }
     }
 

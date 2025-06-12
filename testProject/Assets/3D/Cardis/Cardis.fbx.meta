@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: AreaHalfTransparent
+    second: {fileID: 2100000, guid: e0c59a326ec7a791e89559d07ae4ab15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: board
     second: {fileID: 2100000, guid: fc22548adc98adbbfa115c5af7855ae1, type: 2}
   - first:
@@ -44,6 +49,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: gc
     second: {fileID: 2100000, guid: b20c510c46cb1a7c2a4f00447e3f955e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gcGreenRoom
+    second: {fileID: 2100000, guid: 9a26014196a575cb193abcf412da46ad, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

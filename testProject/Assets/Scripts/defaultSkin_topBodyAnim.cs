@@ -1,7 +1,10 @@
 using UnityEngine;
 using Photon.Pun;
+using Unity.VisualScripting;
 
 public class DefaultSkin_TopBodyAnim : MonoBehaviourPun, IPunObservable {
+
+    public FPS fpsScript;
 
     public Animator TopBodyAnim;
 
@@ -10,11 +13,13 @@ public class DefaultSkin_TopBodyAnim : MonoBehaviourPun, IPunObservable {
 
     void Update() {
         if (photonView.IsMine) {
-            forward = Input.GetKey(KeyCode.W);
-            backward = Input.GetKey(KeyCode.S);
+            if (!fpsScript.CameraIsMoving) {
+                forward = Input.GetKey(KeyCode.W);
+                backward = Input.GetKey(KeyCode.S);
 
-            TopBodyAnim.SetBool("forward", forward);
-            TopBodyAnim.SetBool("backward", backward);
+                TopBodyAnim.SetBool("forward", forward);
+                TopBodyAnim.SetBool("backward", backward);
+            }
         }
     }
 
