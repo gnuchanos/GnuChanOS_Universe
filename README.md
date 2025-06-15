@@ -1,2 +1,4 @@
 # GnuChanOS_Universe
-GnuChanOS Universe – not a metaverse, just better.
+
+
+// hayat bazen farkli zaman diliminde yada zamanin otesinde bulunabilir? ...

@@ -3,7 +3,8 @@ using Photon.Pun;
 
 public class FPS : MonoBehaviour {
     public Transform head;
-    public GameObject flyCamPrefab;
+
+    private Camera flyCam;
 
     private CharacterController characterController;
     private PhotonView photonView;
@@ -13,65 +14,89 @@ public class FPS : MonoBehaviour {
     private Vector3 velocity;
 
     private float mouseSensitivity = 500f;
+
     private float xRotation = 0f;
+    private float yaw = 0f;
+    private float pitch = 0f;
 
     public bool flyCamMode = false;
     public bool CameraIsMoving = false;
-
-    private GameObject flyCam;
 
     void Start() {
         photonView = GetComponent<PhotonView>();
         characterController = GetComponent<CharacterController>();
 
-        if (head == null) Debug.LogError("Head atanmadı!");
+        if (head == null) {
+            Debug.LogError("Head atanmadı!");
+            return;
+        }
 
         if (photonView.IsMine) {
             Cursor.lockState = CursorLockMode.Locked;
         } else {
-            if (head != null && head.GetComponentInChildren<Camera>() != null) {
-                head.GetComponentInChildren<Camera>().enabled = false;
+            if (head != null) {
+                Camera c = head.GetComponentInChildren<Camera>();
+                if (c != null) c.enabled = false;
                 AudioListener listener = head.GetComponentInChildren<AudioListener>();
-                if (listener != null) {
-                    listener.enabled = false;
-                }
+                if (listener != null) listener.enabled = false;
             }
         }
+
+        // Otomatik FlyCam oluşturma
+        GameObject go = new GameObject("FlyCam_AutoCreated");
+        flyCam = go.AddComponent<Camera>();
+        flyCam.fieldOfView = 90;
+        go.AddComponent<AudioListener>();
+
+        flyCam.nearClipPlane = 0.1f;
+        flyCam.farClipPlane = 1000f;
+
+        go.SetActive(false);
     }
 
-    void Update() {
-        if (!photonView.IsMine) return;
+    private bool CursorShow = false;
 
-        // F: FlyCam aç/kapat
-        if (Input.GetKeyDown(KeyCode.F)) {
-            if (!flyCamMode) {
-                flyCam = Instantiate(flyCamPrefab, head.position + head.forward * 2f + Vector3.up, Quaternion.identity);
-                flyCamMode = true;
-                CameraIsMoving = true;
-                Cursor.lockState = CursorLockMode.Locked;
-                xRotation = 0f;
+    void HideCursor() {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            if (!CursorShow) {
+                Cursor.lockState = CursorLockMode.None;
+                CursorShow = true;
             } else {
-                Destroy(flyCam);
-                flyCamMode = false;
-                CameraIsMoving = false;
                 Cursor.lockState = CursorLockMode.Locked;
-                xRotation = 0f;
+                CursorShow = false;
             }
+        } 
+    }
+
+
+    void Update() {
+        if (!photonView.IsMine) { return; }
+
+        HideCursor();
+
+
+        if (Input.GetKeyDown(KeyCode.F)) {
+            flyCamMode = !flyCamMode;
+
+            flyCam.gameObject.SetActive(flyCamMode);
+
+            if (flyCamMode) {
+                flyCam.transform.position = head.position + head.forward * 2f + Vector3.up;
+                flyCam.transform.rotation = Quaternion.LookRotation(head.forward, Vector3.up);
+                yaw = flyCam.transform.eulerAngles.y;
+                pitch = flyCam.transform.eulerAngles.x;
+            }
+
+            CameraIsMoving = flyCamMode;
+            Cursor.lockState = CursorLockMode.Locked;
+            xRotation = 0f;
         }
 
         if (flyCamMode) {
-            // V: Kamera sabit (tank mode) ↔ kamera serbest (flycam)
             if (Input.GetKeyDown(KeyCode.V)) {
-                if (!CameraIsMoving) {
-                    CameraIsMoving = true;
-                } else {
-                    CameraIsMoving = false;
-                }
+                CameraIsMoving = !CameraIsMoving;
             }
-        }
 
-
-        if (flyCamMode) {
             if (CameraIsMoving) {
                 HandleFlyCam();
             } else {
@@ -87,7 +112,7 @@ public class FPS : MonoBehaviour {
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
-        Vector3 movement = move * speed;
+        Vector3 movement = move * (speed + 2);
 
         velocity.y += gravity * Time.deltaTime;
         movement.y = velocity.y;
@@ -96,25 +121,22 @@ public class FPS : MonoBehaviour {
 
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
-        Debug.Log(mouseY);
 
         transform.Rotate(Vector3.up * mouseX);
 
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
-        head.transform.rotation = Quaternion.Euler(xRotation, 0f, 0f);
+        head.localEulerAngles = new Vector3(xRotation, 0f, 0f);
     }
 
     void HandleFlyCam() {
-        if (flyCam == null) return;
-
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
-        float y = 0;
+        float y = 0f;
 
-        if (Input.GetKey(KeyCode.Space)) y = 1;
-        if (Input.GetKey(KeyCode.LeftControl)) y = -1;
+        if (Input.GetKey(KeyCode.Space)) y = 1f;
+        if (Input.GetKey(KeyCode.LeftControl)) y = -1f;
 
         Vector3 moveDir = (flyCam.transform.forward * z + flyCam.transform.right * x + Vector3.up * y).normalized;
         flyCam.transform.position += moveDir * speed * Time.deltaTime;
@@ -122,11 +144,11 @@ public class FPS : MonoBehaviour {
         float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
-        xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-        float yaw = flyCam.transform.eulerAngles.y + mouseX;
+        yaw += mouseX;
+        pitch -= mouseY;
+        pitch = Mathf.Clamp(pitch, -90f, 90f);
 
-        flyCam.transform.rotation = Quaternion.Euler(xRotation, yaw, 0f);
+        flyCam.transform.rotation = Quaternion.Euler(pitch, yaw, 0f);
     }
 
     void HandleTankControl() {

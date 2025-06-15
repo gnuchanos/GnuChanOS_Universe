@@ -6,7 +6,7 @@ public class PlaySoundPlayer : MonoBehaviourPun {
 
     public AudioClip WalkSound;
     [Range(0f, 1f)]
-    public float volume = 1f;
+    public float volume = 0.2f;
 
     private AudioSource audioSource;
     private bool isWalking = false;

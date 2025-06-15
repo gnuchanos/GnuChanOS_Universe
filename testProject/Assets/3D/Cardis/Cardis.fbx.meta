@@ -47,6 +47,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: gPC
+    second: {fileID: 2100000, guid: 115de95933be313fb82236754b1b7b9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: gc
     second: {fileID: 2100000, guid: b20c510c46cb1a7c2a4f00447e3f955e, type: 2}
   - first:
